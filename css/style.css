@@ -1,0 +1,103 @@
+/* CSS Document */
+/*Geral*/
+html, body {height: 100%;}
+body{margin:0; padding:0;font-family: 'Roboto', sans-serif;}
+a{text-decoration:none; color:#3b5998;}
+a:hover{text-decoration:underline;}
+
+img{border:1px #f0f0f0 solid;}
+
+hr{border: 1px solid #ccc;margin-top: 15px;margin-bottom: 15px;}
+
+
+* html #tudo {height: 100%; /* hack para IE6 que trata height como min-height */}
+.geral{margin:0 auto; width:760px; background:#f6f6f6; min-height: 100%;position: relative;}
+
+.conteudo{padding-bottom: 130px;}
+
+/*Cabeçalho*/
+header{background:#3b5998; width:100%; height:90px; border-bottom:1px solid #133783;}
+nav.menu_principal{padding:10px;}
+
+.menu_principal h1{float:left;}
+.menu_principal h1 a{font-weight:bold; color:#f6f6f6; float:left; position:relative; left:10px;}
+.menu_principal h1 a span{font-weight:100;}
+.menu_principal h1 a:hover{text-decoration:none;}
+
+.menu_principal ul{list-style:none; float:left; margin-top:25px;}
+
+.menu_principal ul li{display:inline-block; margin-right:20px;}
+
+.menu_principal ul li a{padding:6px; color:#fff;}
+.menu_principal ul li a:hover{background:#526da4;padding:6px; text-decoration:none;}
+
+.menu_principal ul li a.ativo{background:#526da4;padding:6px; text-decoration:none;}
+
+/*Perfil*/
+.perfil{width:100%; height:200px;}
+.perfil .area_dados{float:left; width:550px; height:190px; background:#f9f9f9;color:#777;}
+
+.avatar{float: left;margin: 20px;background: #f6f6f6;}
+
+.perfil h1{font-weight:100; font-size:23px;}
+.perfil h1 span{font-weight:400;}
+
+.perfil h2{font-size: 13px;position: relative;top: -12px;margin-bottom:17px;}
+
+.last-job{float:left;margin-top:-23px; padding-right:30px;}
+.last-job .title{width:100%; font-size:13px;}
+.last-job strong{width: 100%;position: relative;top: -12px;font-weight: 400;font-size: 15px; }
+.last-job span{font-size: 12px;position: relative;top: -8px;}
+
+.area_numeros{width: 200px;float: right;height: 170px;margin-top: 10px;border-left: 2px solid #e9e9e9;padding-left: 8px;color:#777;}
+
+.area_numeros .number_data{margin-bottom:-10px;}
+
+.area_numeros .number_data strong{font-size: 20px;font-weight: 300;}
+.area_numeros .number_data p{font-size:13px; position:relative; top:-10px;}
+
+/*Pesquisa*/
+section.pesquisa{padding: 0px 20px 0px 20px;}
+.pesquisa .area_pesquisa{padding:15px; background:#e9e9e9; border-top:1px solid #ccc;}
+
+.campos{width: 290px;height: 25px;border: 1px solid #ccc;margin-right: 10px;padding-left: 10px;}
+.btn_search{background: #5b74a8;padding: 3px 2px 5px 2px;position: relative;left: -5px;border: 1px solid #29447e;color: #fff;}
+.btn_search:hover{text-decoration:none;}
+
+.pesquisa h2{color: #777;font-size: 20px;font-weight: 400;}
+
+.pesquisa .ver_tambem p{color:#777;}
+.pesquisa .ver_tambem ul li{list-style:none; display:inline-block;margin-bottom: 18px;margin-right: 4px;}
+
+
+
+/*Vagas*/
+section.ultimas_vagas{padding: 0px 20px 0px 20px; margin-top:20px;}
+
+.ultimas_vagas table{width:100%; border-top:1px solid #ccc;}
+
+.ultimas_vagas table thead{background:#e9e9e9;}
+.ultimas_vagas table thead th{height:35px; color:#777;}
+
+.ultimas_vagas table tbody tr td{padding:10px; border-bottom:1px solid #ccc;color:#777;}
+
+.ultimas_vagas table tbody tr td p{margin-top:-25px; margin-bottom:0;}
+.ultimas_vagas table tbody tr td strong{font-weight: 400;font-size: 15px;}
+
+.ultimas_vagas table tbody tr td span{font-size:12px;}
+
+
+.ultimas_vagas table tbody tr:hover  td{background:#edeff4;}
+
+.quant-vagas{color:#777;}
+.quant-vagas strong{color:#888;}
+
+/*Rodapé*/
+
+
+ 
+
+
+
+
+
